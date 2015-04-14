@@ -28,7 +28,23 @@
     "config": {
         "process-timeout": 1800
     },
-    "extra": {
+	"extra": {
+		"writable": [
+			"api/runtime",
+			"api/web/assets",
+
+			"console/runtime",
+			"console/migrations",
+
+			"site/runtime",
+			"site/assets",
+			"site/web/assets",
+            "site/web/css",
+            "site/web/js"
+		],
+        "executable": [
+            "yii"
+        ],
         "asset-installer-paths": {
             "npm-asset-library": "vendor/npm",
             "bower-asset-library": "vendor/bower"
