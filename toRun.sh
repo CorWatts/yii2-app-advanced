@@ -1,0 +1,3 @@
+#!/bin/bash
+
+composer require 2amigos/yii2-chartjs-widget:~2.0
